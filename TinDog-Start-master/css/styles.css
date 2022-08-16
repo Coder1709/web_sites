@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+
+/* heading */
+.big-heading {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bold;
+  padding: 30px 0 2rem 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4rem 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Ubuntu"
+}
+
+.nav-link {
+  color: white;
+  size: 1.5rem;
+  padding: 18px;
+}
+
+.download-button {
+  margin: 10px 7px 10px 0;
+}
+
+.iphone6 {
+  margin-left: 100px;
+  width: 320px;
+  height: 600px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#features {
+  padding: 3%;
+
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-titles {
+  font-size: 2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-family: "serif";
+  color: grey;
+  padding: 10px 50px 5rem 50px;
+}
+
+/* coloring icon */
+.icon {
+  color: #ef8172;
+  padding-top: 20px;
+}
+
+/* hovering css */
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  padding: 7% 15%;
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+}
+
+.pricing {
+  padding: 100px;
+}
+
+.card-body {
+  color: black;
+  size: 1rem;
+  font-family: serif;
+}
+
+.pricing-column {
+  padding: 4% 3%
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+
+  }
+
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+    margin-top: 3rem;
+  }
+}
+
+#cta {
+
+  background-color: #ff4c68;
+  padding: 8%;
+}
+
+.icon-footer {
+  padding: 4px;
+  color: #000;
+}
+
+.copyright {
+  size: 0.5rem;
+  color: grey;
+  font-: lighter;
+}
+
+#footer {
+  padding: 4% 15%;
+
+}
